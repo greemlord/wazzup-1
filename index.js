@@ -7,6 +7,6 @@ app.get('/', ((req, res) => {
     res.status(200).json(data);
 }))
 
-app.listen(3000, (err) => {
+app.listen(80, (err) => {
     console.log(err || "Server started on localhost:3000");
 })
